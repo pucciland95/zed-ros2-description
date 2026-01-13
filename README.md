@@ -4,7 +4,7 @@
 
 # ROS 2 Description package for ZED Cameras
 
-The `zed-ros2-description` repository installs the `zed_description` ROS2 package which defines the ZED Camera models to be used with the  [ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper) and [ZED ROS2 Examples](https://github.com/stereolabs/zed-ros2-examples).
+The `zed-ros2-description` repository installs the `zed_description` ROS 2 package which defines the ZED Camera models to be used with the  [ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper) and [ZED ROS2 Examples](https://github.com/stereolabs/zed-ros2-examples).
 
 **Note:** This package does not require CUDA and can be used to receive ZED data on ROS 2 machines without an NVIDIA GPU.
 
@@ -57,7 +57,7 @@ source ~/.bashrc
 >
 > `sudo apt-get install python-rosdep python-rosinstall-generator python-vcstool python-rosinstall build-essential`
 >
-> :pushpin: **Note**: The option `--symlink-install` is important, it allows using symlinks instead of copying files to the ROS2 folders during the installation, where possible. Each package in ROS2 must be installed and all the files used by the > nodes must be copied into the installation folders. Using symlinks allows you to modify them in your workspace, reflecting the modification during the next executions without the needing to issue a new colcon build command. This is true only for > all the files that don't need to be compiled (Python scripts, configurations, etc.).
+> :pushpin: **Note**: The option `--symlink-install` is important, it allows using symlinks instead of copying files to the ROS 2 folders during the installation, where possible. Each package in ROS 2 must be installed and all the files used by the > nodes must be copied into the installation folders. Using symlinks allows you to modify them in your workspace, reflecting the modification during the next executions without the needing to issue a new colcon build command. This is true only for > all the files that don't need to be compiled (Python scripts, configurations, etc.).
 >
 > :pushpin: **Note**: If you are using a different console interface like `zsh`, you have to change the `source` command as follows: `echo source $(pwd)/install/local_setup.zsh >> ~/.zshrc and source ~/.zshrc`.
 
