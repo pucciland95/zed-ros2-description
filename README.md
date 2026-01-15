@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img src="./images/Picto+STEREOLABS_Black.jpg" alt="Stereolabs" title="Stereolabs" /><br \>   
+   <img src="./images/Picto+STEREOLABS_Black.jpg" alt="Stereolabs" title="Stereolabs" />   
 </h1>
 
 # ROS 2 Description package for ZED Cameras
